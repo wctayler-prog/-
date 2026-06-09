@@ -1,0 +1,232 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title>Pseudo</title>
+<meta name="google-site-verification" content="J4OGFLoVte5B5FapQrbI-b3Sjpsah5KBPfd8y4dDsqQ" />
+<style>
+
+*{
+	box-sizing:border-box;
+}
+
+.header,.footer{
+	background-color:#FCF;
+	color:#FFF;
+	padding:10px;
+}
+	
+.header{background-image:url(images/149502887854040.png), url(images/20181210_161204.jpg);
+        background-position:center center, left;
+        background-size:200px 300px, contain;
+		background-repeat:no-repeat,no-repeat;
+        height:300px;
+}
+
+.myclearfix{
+	/*background-image:url(images/coffee3.png);
+	background-position:right bottom;
+	background-size:200px 200px;
+	background-repeat:no-repeat;*/
+	/*設定背景圖的起始位置*/
+	background-origin:padding-box;
+	background-origin:border-box;
+	background-origin:content-box;
+	padding-right:200px;
+	background-color:#9CF;
+	padding:10px;
+	background-clip:content-box;	
+}
+
+.clearfix::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+.column{float:left;
+padding:10px;
+}
+
+.menu{
+	width:25%;
+}
+
+.menu ul{
+	     list-style-type:none;
+		 margin:0px;
+		 padding:0px;
+}
+
+.menu li{
+	    padding:10px;
+		background-color:#303;
+		color:#FFF;
+		margin-bottom:5px;
+}
+
+a{color:#FFF;
+ text-decoration:none;
+}
+
+.menu li:hover{
+	       background-color:#390;
+}
+
+.content{
+	      width:75%;
+		  background-image:url(images/20181209_225155.jpg);
+		  background-position:right bottom;
+		  background-size:300px 180px;
+		  background-repeat:no-repeat;
+		  /* 設定背景圖的起始位置 */
+		  background-origin:padding-box;
+		  background-origin:border-box;
+		  background-origin:padding-box;
+		  padding-right:200px;
+}
+
+img.img1{
+	width:17%;
+	position:absolute;
+	top:75px;
+	left:1000px;
+	border-radius:10px;
+	opacity:0.8;
+	z-index:2;
+	-moz-box-shadow:5px 5px 3px rgba(0,0,0,0.8);
+	-webkit-box-shadow:5px 3px 3px rgba(0,0,0,0.8);
+	box-shadow:5px 3px 3px rgba(0,0,0,0.8);
+}
+
+img.img2{
+	width:17%;
+	position:absolute;
+	top:75px;
+	left:1120px;
+	border-radius:10px;
+	opacity:0.8;
+	z-index:1;
+}
+
+img.img3{
+	width:15%;
+	position:absolute;
+	top:50px;
+	left:500px;
+	border-radius:10px;
+	border:2px #CCC solid;
+	opacity:0.8;
+	z-index:3;
+}
+
+ h1{font-size:80px;
+    font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+	z-index:4;
+	text-shadow:2px 2px 5px black;
+	text-shadow:2px 2px 5px black, 3px 3px 5px red, 5px 5px 5px blue;
+}
+
+</style>
+</head>
+
+<body>
+<meta name="google-site-verification" content="YWN04L3tzCAVvhfryD67V2KBsGOQQAcr6URc701gBg4" />
+<div class="header">
+  <h1>宅阿倫維修電腦工作室</h1>
+<img src="images/20181209_225155.jpg" class="img1">
+</div>
+
+<div class="clearfix myclearfix">
+  <div class="column menu">
+  <ul>    
+      <li><a href="page0903_1.html">首頁</a></li>
+      <li><a href="page0904 1.html">服務方式</a></li>
+      <li><a href="page0904@1.html">維修價目表</a></li>
+      <li><a href="page0904_1.html">售後服務</a></li>
+      <li><a href="page0904 2.html">服務地區</a></li>
+      <li><a href="page0904-1.html">常見問答</a></li>
+      <li><a href="page0905.html">聯絡我們</a></li>
+   </ul>   
+   </div>
+  <div class="column content">
+     <h3>首頁</h3>
+   <hr>
+   <iframe src="https://drive.google.com/file/d/1SmJOjAqkNeJfprVjCX5hk7JY1HZN1dtq/preview" width="640" height="480" allow="autoplay" allowFullScreen="true"></iframe>
+<p>電腦故障維修自己DIY檢查
+  <strong>電腦維修</strong>：
+  基本概念：一般電腦可分為下列四個部分 
+  主機部份：主機板、CPU、記憶體、電源供應器
+  介面卡部份：螢幕卡、音效卡、網路卡
+  磁碟機部份：SSD硬碟、一般硬碟
+  週邊設備部份：螢幕、鍵盤、滑鼠、印表機、喇叭、麥克風<br>
+</p>  
+<p><strong>電腦開機流程</strong>：了解它，電腦維修才有概念 
+  1.開啟電源
+  2.螢幕出現BIOS測試畫面，並進行POST自我測試
+  3.沒硬碟會出現Reboot and Select proper Boot device or Insert Boot Media in Selected Boot device and press a key
+  4.載入作業系統：POST沒問題先出現系統架構表，然後載入作業系統
+  5.執行作業系統<br>
+</p> 
+  
+<p><strong>電腦維修流程</strong>： 
+  1.開啟電源 (請確實檢查各接頭是否正確接好)
+  2.是否出現螢幕畫面 (否：主機故障)
+
+  
+依實務的經驗，不見得一定是主機故障。
+  它有可能是螢幕的故障。若是牽涉到主機的部份，最常見的故障，
+  
+  依序是：記憶體、顯示卡、CPU。
+  3.螢幕是否出現錯誤訊息 (是：螢幕錯誤訊息診斷)
+  4.是否順利載入作業系統 (否：作業系統錯誤)
+  5.介面卡功能是否正常 (否：介面卡故障)
+  6.週邊設備功能是否正常 (否：週邊設備故障)<br>
+</p> 
+  
+<p><strong>主機維修</strong>：(注意主機板是否太髒及BIOS設定是否正確，可移開電池再放回，使恢復出廠值) 
+  
+  先檢查各接頭是否確實接好, 
+  ▼
+  打開主機外殼，拔掉所有介面卡及排線
+  ▽
+  主機板壞掉通常沒有嗶聲，除非PC 主機板speaker壞掉，或插speaker的腳位壞掉，
+  或者主機板上沒有speaker腳位可以插，這時可以裸測檢查主機板有無壞掉，也可以用
+  測試卡檢查主機板有無壞掉，只是本人習慣用裸測測主機板有無壞掉。
+  ▼
+  若有連續不斷的嗶嗶聲：記憶體故障,拔起記憶體,記憶體金手指以橡皮擦,擦拭氧化部分,再重新插回去(適用於AWARD BIOS 現在大部分的BIOS)
+  
+  若有一長音嗶聲：顯示卡故障,拔起顯示卡,主機板的插槽用長毛刷清一清,記憶體金手指以橡皮擦,擦拭氧化部分,再重新插回去,並檢視顯示卡風散是否運作(適用於AWARD BIOS 現在大部分的BIOS)
+  ▼
+  螢幕錯誤訊息維修：(建議先進安全模式後，再重新啟動看看，如果還不行往下看)<br>
+</p> 
+  
+<p>1.<strong>BIOS啟動後錯誤訊息</strong>： BIOS ROM checksum error-System halted：表示BIOS ROM的資料錯誤--找原廠更新BIOS
+  CMOS battery failed：換新電池即可
+  CMOS checksum error-Ddfaults loaded：選LOAD SETUP DEFAULTS即可
+  Keyboard error or No keyboard present：確實接好，別台試試
+  Memory test fail：重插(一次試一支)
+  Primary master hard disk fail：BIOS中的設定是否正確，排線電源是接好，MASTER/SLAVE的JUMPER
+  <br>
+</p> 
+  
+<p>2.<strong>系統組態表出現後出現錯誤訊息</strong>： 
+  
+  NO partition bootable：未做FDISK 
+  NO rom basic-- press a key to reboot：未設開機分割區
+  Missing operation system：未做format
+  Non-system disk or disk error：找不到開機系統檔，以開機片開機後 sys c:
+  Bad or missing command interpeter：command.com不見或損壞，拷回
+  Invalid system disk：BIOS太老舊不支援LBA模式的硬碟，原廠更新BIOS
+  Cannot load command,system halted：command.com損壞或版本不對
+  Disk boot failure：硬碟控制卡故障或開機磁區壞掉，可拿到別台試試，卡壞換卡，否則應為MBR 或DBR 故障(所以平常應備份)<br>
+</p>
+  
+<p><strong>[參考來源]</strong>
+ http://www.peboking.com/modules/newbb/viewtopic.php?topic_id=1674&forum=9</p>
+ </div> 
+</div>     
+</body>
+</html>

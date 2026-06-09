@@ -1,0 +1,199 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title>Pseudo</title>
+<meta name="google-site-verification" content="J4OGFLoVte5B5FapQrbI-b3Sjpsah5KBPfd8y4dDsqQ" />
+<style>
+
+*{
+	box-sizing:border-box;
+}
+
+.header,.footer{
+	background-color:#FCF;
+	color:#FFF;
+	padding:10px;
+}
+	
+.header{background-image:url(images/149502887854040.png),  url(images/20181210_161204.jpg);
+        background-position:center center, left;
+        background-size:200px 300px, contain;
+		background-repeat:no-repeat,no-repeat;
+        height:300px;
+}
+
+.myclearfix{
+	/*background-image:url(images/coffee3.png);
+	background-position:right bottom;
+	background-size:200px 200px;
+	background-repeat:no-repeat;*/
+	/*設定背景圖的起始位置*/
+	background-origin:padding-box;
+	background-origin:border-box;
+	background-origin:content-box;
+	padding-right:200px;
+	background-color:#9CF;
+	padding:10px;
+	background-clip:content-box;	
+}
+
+.clearfix::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+.column{float:left;
+padding:10px;
+}
+
+.menu{
+	width:25%;
+}
+
+.menu ul{
+	     list-style-type:none;
+		 margin:0px;
+		 padding:0px;
+}
+
+.menu li{
+	    padding:10px;
+		background-color:#303;
+		color:#FFF;
+		margin-bottom:5px;
+}
+
+a{color:#FFF;
+ text-decoration:none;
+}
+
+.menu li:hover{
+	       background-color:#390;
+}
+
+.content{
+	      width:75%;
+		  background-image:url(images/20181209_225155.jpg);
+		  background-position:right bottom;
+		  background-size:300px 180px;
+		  background-repeat:no-repeat;
+		  /* 設定背景圖的起始位置 */
+		  background-origin:padding-box;
+		  background-origin:border-box;
+		  background-origin:padding-box;
+		  padding-right:200px;
+}
+
+img.img1{
+	width:17%;
+	position:absolute;
+	top:75px;
+	left:1000px;
+	border-radius:10px;
+	opacity:0.8;
+	z-index:2;
+	-moz-box-shadow:5px 5px 3px rgba(0,0,0,0.8);
+	-webkit-box-shadow:5px 3px 3px rgba(0,0,0,0.8);
+	box-shadow:5px 3px 3px rgba(0,0,0,0.8);
+}
+
+img.img2{
+	width:17%;
+	position:absolute;
+	top:75px;
+	left:1120px;
+	border-radius:10px;
+	opacity:0.8;
+	z-index:1;
+}
+
+img.img3{
+	width:15%;
+	position:absolute;
+	top:50px;
+	left:500px;
+	border-radius:10px;
+	border:2px #CCC solid;
+	opacity:0.8;
+	z-index:3;
+}
+
+ h1{font-size:80px;
+    font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+	z-index:4;
+	text-shadow:2px 2px 5px black;
+	text-shadow:2px 2px 5px black, 3px 3px 5px red, 5px 5px 5px blue;
+}
+
+</style>
+</head>
+
+<body> 
+<div class="header">
+<h1>宅阿倫維修電腦工作室</h1>
+<img src="images/20181209_225155.jpg" class="img1">
+</div>
+
+<div class="clearfix myclearfix">
+  <div class="column menu">
+  <ul>    
+      <li><a href="page0903_1.html">首頁</a></li>
+      <li><a href="page0904 1.html">服務方式</a></li>
+      <li><a href="page0904@1.html">維修價目表</a></li>
+      <li><a href="page0904_1.html">售後服務</a></li>
+      <li><a href="page0904 2.html">服務地區</a></li>
+      <li><a href="page0904-1.html">常見問答</a></li>
+      <li><a href="page0905.html">聯絡我們</a></li>
+   </ul>   
+   </div>
+   <div class="column content">
+   <h3>服務方式</h3>
+   <hr>
+   <iframe src="https://drive.google.com/file/d/1SmJOjAqkNeJfprVjCX5hk7JY1HZN1dtq/preview" width="640" height="480" allow="autoplay" allowFullScreen="true"></iframe>
+<p>即日起每週的公休日改為"星期六或日"<br>
+其它時間皆可送至宅阿倫維修電腦工作室維修、檢測</p>
+　	
+<p>我們專修別人修不好的電腦!若您的電腦四處求醫總是修不好,歡迎您前來一試,修不好絕不收費<br>
+即日起，凡親自送電腦主機到本店 (宅阿倫維修電腦工作室) 健診，即可享有免費檢測電腦之服務！<br>
+</p>
+
+<p>免費檢測的項目:判斷是電腦軟體或硬體那一部分的問題。
+若要進一步檢查出硬體那個部分出問題,拆開主機檢測後若不維修,將酌收200元的維修費。
+
+   需要到府維修的朋友,請您先確認:維修的收費標準,以免造成不必要的困擾,謝謝!
+
+   沒修好絕不收費 ( 硬體故障除外 )
+
+   報價即是修到好的費用,絕不以低報價,再一項一項加價的方式來維修 !!!
+
+   您是電腦孤兒，賣您電腦的人不見了或公司失蹤了嗎 ?
+
+　	   您常因為電腦不知找誰修理,而將電腦抱來抱去的,求救無門嗎 ?
+　	   您是否因叫修電腦時，一等就是好幾天或再聯絡，導致您的工作無法順利完成嗎 ?
+　	   您常抱著您心愛的電腦去送修，卻被對方偷換了零件或就地喊價，
+      對方告訴您一堆東西壞了要換，但因為您看不到或不懂電腦，所以只好任人宰割嗎 ?
+
+　	   您常因為大多數的電腦公司未提供到府維修服務，每回有問題時，
+      總要抱著您的電腦到處求醫，且一等就是好幾天 ?
+
+      搬回來之後，卻還是沒辦法解決您的問題 ( 問題一樣存在 ) 嗎 ?<br>
+</p>
+ 
+
+<p>本工作室本持著專業、快速、誠信、負責的態度，
+
+不以低價方式惡性競爭，而以專業的維修技術取勝，
+
+專業到府現場維修您的電腦，所有維修過程，皆在您的監督之下完成，
+
+報價後再維修， ( 收費請參閱 "維修價目表" )，以上的問題您再也不必擔心！
+
+維修地點如高雄市前金區明星街120號</p>
+   </div> 
+</div>     
+</body>
+</html>

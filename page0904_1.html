@@ -1,0 +1,163 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title>Pseudo</title>
+<meta name="google-site-verification" content="J4OGFLoVte5B5FapQrbI-b3Sjpsah5KBPfd8y4dDsqQ" />
+<style>
+
+*{
+	box-sizing:border-box;
+}
+
+.header,.footer{
+	background-color:#FCF;
+	color:#FFF;
+	padding:10px;
+}
+	
+.header{background-image:url(images/149502887854040.png), url(images/20181210_161204.jpg);
+        background-position:center center, left;
+        background-size:200px 300px, contain;
+		background-repeat:no-repeat,no-repeat;
+        height:300px;
+}
+
+.myclearfix{
+	/*background-image:url(images/coffee3.png);
+	background-position:right bottom;
+	background-size:200px 200px;
+	background-repeat:no-repeat;*/
+	/*設定背景圖的起始位置*/
+	background-origin:padding-box;
+	background-origin:border-box;
+	background-origin:content-box;
+	padding-right:200px;
+	background-color:#9CF;
+	padding:10px;
+	background-clip:content-box;	
+}
+
+.clearfix::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+.column{float:left;
+padding:10px;
+}
+
+.menu{
+	width:25%;
+}
+
+.menu ul{
+	     list-style-type:none;
+		 margin:0px;
+		 padding:0px;
+}
+
+.menu li{
+	    padding:10px;
+		background-color:#303;
+		color:#FFF;
+		margin-bottom:5px;
+}
+
+a{color:#FFF;
+ text-decoration:none;
+}
+
+.menu li:hover{
+	       background-color:#390;
+}
+
+.content{
+	      width:75%;
+		  background-image:url(images/20181209_225155.jpg);
+		  background-position:right bottom;
+		  background-size:300px 180px;
+		  background-repeat:no-repeat;
+		  /* 設定背景圖的起始位置 */
+		  background-origin:padding-box;
+		  background-origin:border-box;
+		  background-origin:padding-box;
+		  padding-right:200px;
+}
+
+img.img1{
+	width:17%;
+	position:absolute;
+	top:75px;
+	left:1000px;
+	border-radius:10px;
+	opacity:0.8;
+	z-index:2;
+	-moz-box-shadow:5px 5px 3px rgba(0,0,0,0.8);
+	-webkit-box-shadow:5px 3px 3px rgba(0,0,0,0.8);
+	box-shadow:5px 3px 3px rgba(0,0,0,0.8);
+}
+
+img.img2{
+	width:17%;
+	position:absolute;
+	top:75px;
+	left:1120px;
+	border-radius:10px;
+	opacity:0.8;
+	z-index:1;
+}
+
+img.img3{
+	width:15%;
+	position:absolute;
+	top:50px;
+	left:500px;
+	border-radius:10px;
+	border:2px #CCC solid;
+	opacity:0.8;
+	z-index:3;
+}
+
+ h1{font-size:80px;
+    font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+	z-index:4;
+	text-shadow:2px 2px 5px black;
+	text-shadow:2px 2px 5px black, 3px 3px 5px red, 5px 5px 5px blue;
+}
+
+</style>
+</head>
+
+<body>
+<div class="header">
+<h1>宅阿倫維修電腦工作室</h1>
+<img src="images/20181209_225155.jpg" class="img1">
+</div>
+
+<div class="clearfix myclearfix">
+  <div class="column menu">
+  <ul>    
+      <li><a href="page0903_1.html">首頁</a></li>
+      <li><a href="page0904 1.html">服務方式</a></li>
+      <li><a href="page0904@1.html">維修價目表</a></li>
+      <li><a href="page0904_1.html">售後服務</a></li>
+      <li><a href="page0904 2.html">服務地區</a></li>
+      <li><a href="page0904-1.html">常見問答</a></li>
+      <li><a href="page0905.html">聯絡我們</a></li>
+   </ul>   
+   </div>
+   <div class="column content">
+   <h3>售後服務</h3>
+   <hr>
+   <iframe src="https://drive.google.com/file/d/1SmJOjAqkNeJfprVjCX5hk7JY1HZN1dtq/preview" width="640" height="480" allow="autoplay" allowFullScreen="true"></iframe>
+<p>
+<h2>所有硬體保固3個月，如果維修後3個月內仍有問題，保證維修到好</h2>
+</p>
+</div> 
+</div>     
+</body>
+</html>
