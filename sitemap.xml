@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-    <loc>https://drv.tw/~wctayler@gmail.com/gd/MyWeb/page0903_1.html</loc>
-  </url>
-  </urlset>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://wctayler-prog.github.io/-/</loc>
+  <lastmod>2026-06-09T09:54:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://wctayler-prog.github.io/-/page0903_1.html</loc>
+  <lastmod>2026-06-09T09:54:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wctayler-prog.github.io/-/page0904%201.html</loc>
+  <lastmod>2026-06-09T09:54:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wctayler-prog.github.io/-/page0904_1.html</loc>
+  <lastmod>2026-06-09T09:54:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wctayler-prog.github.io/-/page0904%202.html</loc>
+  <lastmod>2026-06-09T09:54:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wctayler-prog.github.io/-/page0904-1.html</loc>
+  <lastmod>2026-06-09T09:54:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wctayler-prog.github.io/-/page0905.html</loc>
+  <lastmod>2026-06-09T09:54:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
